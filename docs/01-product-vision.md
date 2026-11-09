@@ -12,14 +12,17 @@ RoomieMatch was inspired by firsthand experience navigating shared apartment sea
 
 ## 2. Problem Statement
 
-People searching for roommates and those offering rooms in shared apartments often lack a structured way to evaluate living compatibility early in the application process.
+The idea for RoomieMatch was initially inspired by my personal experience searching for a room in a shared apartment (WG) in Germany. During my search, I contacted numerous potential roommates through platforms such as WG-Gesucht, exchanged multiple messages, and participated in introductory video calls to understand whether we would be compatible.
 
-Housing listings typically emphasize practical information such as rent, location, room size, and availability. Information about household expectations and individual living preferences may be incomplete or scattered across descriptions and conversations.
+However, I often discovered important differences in our lifestyles, expectations, and personal preferences only after investing considerable time in these conversations. Factors such as communication language, cleanliness, daily routines, social habits, and household rules were not always clearly communicated in the initial listings.
+
+This experience highlighted a broader potential problem in the roommate-search process. People looking for rooms and those offering accommodation often lack a structured way to evaluate living compatibility early in the application process.
+
+Housing listings typically emphasize practical information such as rent, location, room size, and availability, while details about household expectations and individual living preferences may be incomplete or scattered across descriptions and conversations.
 
 As a result, both applicants and existing roommates may spend considerable time communicating before discovering significant differences in their expectations.
 
-The problem RoomieMatch aims to address is the difficulty of identifying potential roommate compatibility efficiently, transparently, and early in the search process.
-
+**RoomieMatch aims to address this problem by making it easier for both parties to identify and understand potential roommate compatibility early, efficiently, and transparently.**
 ## 3. Proposed Solution
 
 RoomieMatch is a web-based, two-way roommate compatibility assessment platform designed to help individuals and shared households evaluate their living preferences before committing to introductory meetings or further discussions.
@@ -40,7 +43,9 @@ RoomieMatch is intended to complement existing housing platforms, such as WG-Ges
 
 RoomieMatch is initially designed for individuals living in or searching for shared apartments (WGs) in Germany. The platform focuses on people who want to understand potential roommate compatibility before investing significant time in conversations, introductory calls, or apartment viewings.
 
-The application serves two primary user groups: existing households looking for a new roommate and individuals searching for a room.
+The application identifies three potential user groups: existing households looking for a new roommate, individuals searching for a room, and landlords or property managers responsible for renting rooms in shared accommodation.
+
+The primary focus of the initial release will be existing households and room applicants, while landlords represent an additional audience whose needs will be explored during research.
 
 ### 4.1 Existing Households (WG Hosts)
 
@@ -92,126 +97,181 @@ The report explains shared preferences, potential disagreements, and important t
 
 Applicants do not have access to other applicants' personal information or compatibility reports.
 
-### 4.3 Initial Target Market
+### 4.3 Landlords and Property Managers
+
+This group includes individuals or organizations who own or manage properties where rooms are rented separately to people sharing common living spaces.
+
+Unlike existing roommates, landlords and property managers may not personally live in the accommodation. However, they may be involved in advertising available rooms, communicating with applicants, and coordinating the selection of new tenants.
+
+In shared housing arrangements, landlords may benefit from understanding whether prospective tenants' living expectations align with those of the existing residents.
+
+**Primary Needs**
+
+- Communicate household rules and practical living arrangements clearly.
+- Provide prospective tenants with accurate information about the shared accommodation.
+- Reduce repetitive communication during the initial application process.
+- Help identify potential compatibility concerns between applicants and existing residents.
+- Support a more organized and transparent tenant-selection process.
+
+**How RoomieMatch Could Help**
+
+RoomieMatch could allow landlords or property managers to create or manage a household questionnaire using living expectations provided or approved by the existing residents.
+
+Prospective tenants would complete the questionnaire and receive compatibility feedback about the household.
+
+Where appropriately authorized, landlords could coordinate invitations and review relevant results to help facilitate the selection process.
+
+Compatibility assessments would reflect the expectations of the people actually sharing the accommodation rather than the landlord's personal lifestyle preferences.
+
+RoomieMatch would not replace formal rental applications, financial eligibility assessments, or legal tenancy procedures.
+
+Landlord-specific functionality will be evaluated during user research before deciding whether it belongs in the initial release or a future version.
+
+### 4.4 Initial Target Market
 
 The initial geographic focus will be Germany, where shared apartments are commonly known as Wohngemeinschaften (WGs).
 
-The platform will initially focus on students, young professionals, and other adults seeking shared accommodation.
+The platform will initially focus on students, young professionals, and other adults seeking shared accommodation, alongside existing households searching for new roommates.
+
+Landlords and property managers offering rooms in shared accommodation will be considered an additional potential user segment.
 
 RoomieMatch will be designed to support people with different cultural backgrounds, languages, and living preferences.
 
 The first release will prioritize a straightforward questionnaire-sharing experience rather than building a complete housing marketplace.
 
-### 4.4 Product Principle: Mutual Compatibility
+### 4.5 Product Principle: Mutual Compatibility
 
 RoomieMatch is built around the principle that roommate compatibility should be evaluated from both perspectives.
 
-Neither the host nor the applicant should be treated as the sole decision-maker in determining whether a living arrangement is suitable.
+Existing roommates and prospective applicants should have the opportunity to understand each other's living expectations and determine whether sharing accommodation would be suitable.
 
-Both parties should have access to understandable information about their compatibility, while maintaining appropriate control over their personal information.
+Both parties should have access to understandable compatibility feedback while maintaining appropriate control over their personal information.
 
-Compatibility results are intended to support conversations and informed decisions rather than guarantee successful living arrangements.
+Where landlords or property managers are involved, their role should be to facilitate the process without replacing the preferences and perspectives of the people who will actually share the household.
+
+Compatibility results are intended to support conversations and informed decisions rather than guarantee successful living arrangements or automatically determine who should receive a room.
 ## 5. Product Goals and Success Metrics
 
 ### 5.1 Product Goals
 
-The primary goal of RoomieMatch is to help individuals and shared households identify potential living compatibility earlier in the roommate-search process.
+The primary goal of RoomieMatch is to simplify the roommate-search process by helping people understand potential living compatibility before investing significant time in introductory conversations, video calls, or apartment viewings.
 
-The platform aims to reduce unnecessary introductory conversations, improve transparency about living expectations, and support informed decisions for both applicants and existing roommates.
+The platform aims to improve transparency, reduce repetitive communication, and support informed decisions for both existing households and prospective roommates.
 
-**Goal 1: Simplify the Initial Roommate Evaluation Process**
+### Goal 1: Simplify the Initial Roommate Evaluation Process
 
-RoomieMatch aims to provide a structured way for people to communicate their living preferences before arranging introductory meetings.
+RoomieMatch aims to make the initial evaluation process more structured and efficient.
 
-By collecting relevant information through a shared questionnaire, the platform seeks to reduce repetitive questions and unnecessary back-and-forth communication.
+Instead of repeatedly discussing the same household expectations with different applicants, existing roommates can create a compatibility questionnaire and share it with multiple interested individuals.
 
-**Goal 2: Promote Mutual Understanding**
+Applicants can communicate their preferences through the questionnaire without having to explain the same information repeatedly during initial conversations.
 
-The application aims to help both existing roommates and prospective applicants understand each other's living habits, expectations, and preferences.
+### Goal 2: Provide Mutual Compatibility Feedback
 
-Rather than presenting compatibility as a one-sided assessment, RoomieMatch will provide both parties with relevant feedback about their alignment.
+RoomieMatch aims to ensure that compatibility evaluation is beneficial to both parties.
 
-**Goal 3: Improve Transparency in Roommate Searches**
+Existing households should be able to understand how applicants' preferences align with their living arrangements, while applicants should also be able to evaluate whether the household suits their own expectations.
 
-RoomieMatch aims to make important household expectations more visible earlier in the search process.
+Both parties should receive clear and relevant feedback, rather than treating applicants solely as candidates being evaluated by a household.
 
-Users should be able to identify potential disagreements involving cleanliness, social habits, daily routines, guests, and communication preferences before committing additional time to the process.
+### Goal 3: Improve Transparency About Living Expectations
 
-**Goal 4: Support Better-Informed Decisions**
+The platform aims to make important household expectations more visible earlier in the roommate-search process.
 
-The application will provide understandable compatibility explanations rather than relying exclusively on numerical scores.
+These may include cleanliness, daily routines, communication preferences, noise levels, social habits, guests, smoking rules, and other practical aspects of shared living.
 
-These explanations should help users identify important discussion topics and evaluate whether a living arrangement may suit their expectations.
+By identifying potential disagreements early, users can determine which topics require further discussion before arranging a meeting.
 
-RoomieMatch will not automatically determine whether two parties should live together.
+### Goal 4: Support Informed Decision-Making
 
-**Goal 5: Deliver an Accessible and Practical Solution**
+RoomieMatch aims to provide compatibility results that are understandable and useful.
 
-The first version of RoomieMatch will be a responsive web application accessible through a shareable link.
+Rather than presenting only a numerical percentage, the application will explain areas of agreement and differences between the household's expectations and an applicant's preferences.
 
-The applicant experience should be simple and should not require downloading a mobile application.
+Compatibility results will represent alignment with questionnaire responses, not a scientifically validated prediction of successful cohabitation.
 
-The platform will prioritize clear navigation, understandable questions, and a straightforward results presentation.
+The platform will support users in making their own decisions rather than automatically selecting or rejecting applicants.
+
+### Goal 5: Deliver an Accessible and Practical Solution
+
+RoomieMatch will initially be developed as a responsive web application that can be accessed through a shareable link.
+
+The applicant experience should be straightforward and should not require installing an application or creating an account solely to complete a questionnaire.
+
+The initial release will focus on providing a reliable and understandable experience rather than introducing unnecessary features.
 
 ### 5.2 Success Metrics
 
-The success of RoomieMatch will be evaluated through a combination of product usage, task completion, and qualitative user feedback.
+The success of RoomieMatch will be evaluated through product usability, completion of key workflows, and feedback from potential users.
 
-The initial metrics will focus on whether users can complete the intended workflows and whether the resulting compatibility information is useful.
+As the project is currently in its planning stage, the following metrics are preliminary. Specific performance targets will be established after initial research and usability testing.
 
-**Metric 1: Questionnaire Completion Rate**
+### Metric 1: Questionnaire Completion Rate
 
-This metric measures the percentage of applicants who begin a questionnaire and successfully submit their responses.
+This metric measures the percentage of applicants who successfully submit a questionnaire after starting it.
 
-A high completion rate may indicate that the questionnaire is understandable and manageable in length.
+**Calculation:** (Completed Questionnaires / Started Questionnaires) × 100
 
-Calculation:
+A higher completion rate may indicate that the questionnaire is understandable and manageable in length. However, completion rates must be interpreted alongside user feedback.
 
-Questionnaire Completion Rate = (Completed Questionnaires / Started Questionnaires) × 100
+### Metric 2: Questionnaire Completion Time
 
-**Metric 2: Questionnaire Completion Time**
+This metric measures the amount of time applicants need to complete a compatibility questionnaire.
 
-This metric measures how long applicants take to complete a compatibility questionnaire.
+An initial design hypothesis is that the questionnaire should take approximately three to five minutes.
 
-The initial design target is approximately three to five minutes, subject to validation through usability testing.
+This target will be evaluated during testing and adjusted if users need more time to provide meaningful responses.
 
-The goal is to collect meaningful information without making the application process unnecessarily lengthy.
+### Metric 3: Successful Completion of the Host Workflow
 
-**Metric 3: Compatibility Report Usefulness**
+This metric evaluates whether WG hosts can independently create a household profile, define preferences, generate a shareable questionnaire, receive multiple responses, and review compatibility results.
 
-After viewing their results, users may be asked whether the compatibility report helped them understand the household or applicant better.
+The objective is to identify unnecessary steps or confusing interactions that prevent users from completing the process.
 
-Feedback will assess whether the results are clear, relevant, and useful for identifying potential disagreements.
+### Metric 4: Accessibility of Compatibility Results for Both Parties
 
-An initial research target is for at least 80% of a small pilot group to rate the report as useful. This is a proposed target rather than an established benchmark.
+This metric evaluates whether both hosts and applicants can successfully access and understand their respective compatibility reports.
 
-**Metric 4: Early Identification of Compatibility Differences**
+Hosts should be able to review the results of participating applicants, while each applicant should be able to access their individual compatibility feedback without viewing other applicants' information.
 
-This metric evaluates whether RoomieMatch helps users recognize important differences before arranging an introductory conversation or viewing.
+Testing will assess whether users understand the meaning of their results and the reasons behind identified similarities and differences.
 
-Participants will be asked whether the questionnaire revealed something they would otherwise have discovered later in the roommate-search process.
+### Metric 5: Perceived Usefulness of Compatibility Feedback
 
-**Metric 5: Successful End-to-End Usage**
+Users will be asked whether the compatibility report helped them better understand the household or potential roommate.
 
-This metric measures whether a household can successfully create a questionnaire, share the invitation, receive responses from multiple applicants, and review compatibility results.
+Feedback will focus on the clarity, relevance, and practical usefulness of the results.
 
-The corresponding applicant journey must also work, including accessing the questionnaire, submitting answers, and viewing personal compatibility feedback.
+The evaluation will also consider whether the explanations helped users identify important topics to discuss during subsequent conversations.
 
-### 5.3 Initial Validation Approach
+### Metric 6: Early Identification of Compatibility Differences
 
-The initial product will be evaluated through usability testing with a small group of people who have experience searching for or offering rooms in shared apartments.
+One of RoomieMatch's central objectives is to help users recognize important differences before scheduling introductory meetings.
 
-Testing will focus on task completion, questionnaire clarity, the usefulness of compatibility explanations, and whether the experience supports decisions for both parties.
+During testing, participants will be asked whether the questionnaire revealed expectations or preferences they might otherwise have discovered later in the roommate-search process.
 
-Research findings and observed usage patterns will be used to refine the success criteria before and after the first release.
+This feedback will help evaluate whether RoomieMatch addresses its original problem.
+
+### 5.3 Initial Product Validation
+
+The first version of RoomieMatch will be tested with a small group of people who have experience searching for roommates or offering rooms in shared accommodation.
+
+Both WG hosts and applicants will be included to ensure that the application is evaluated from both perspectives.
+
+Testing will focus on the ability to complete key tasks, understand compatibility feedback, and determine whether the application provides useful information early in the roommate-search process.
+
+Landlords and property managers may also be consulted to understand their potential role in the process. However, landlord-specific success metrics will not be prioritized unless research supports including this audience in the initial release.
 
 ### 5.4 Long-Term Success
 
-Long-term success will not be measured solely by the number of registered users or completed questionnaires.
+The long-term success of RoomieMatch will not be defined solely by the number of users or completed questionnaires.
 
-The broader objective is to determine whether RoomieMatch meaningfully improves the roommate-search experience by reducing unnecessary communication, increasing transparency, and helping users make more informed decisions.
+The broader objective is to determine whether the application meaningfully improves the roommate-search experience by reducing repetitive communication, increasing transparency, and helping people make better-informed decisions.
 
-The product will be considered valuable if users find the compatibility information useful enough to incorporate it into their actual roommate-search process.
+A successful product should provide value to both existing households and prospective roommates.
+
+User research, observed product usage, and feedback collected after deployment will inform future improvements and the development of subsequent versions.
+
 ## 6. Product Scope, Assumptions, and Constraints
 
 ### 6.1 Initial Product Scope
